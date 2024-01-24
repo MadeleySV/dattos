@@ -1,15 +1,50 @@
 body {
+  background-color: #3492d1; 
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul {
+  display: flex; 
+  justify-content: center; 
+}
+
+li {
+  margin-right: 20px; 
+}
+
+button {
+  padding: 10px;
+  background-color: #ffffff; 
+  border: none; 
+  color: #000000; 
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: #fbff25; 
+}
+
+
+h1 {
+  font-family: 'Bungee Spice', sans-serif;
+  font-family: 'Concert One', sans-serif;
+  font-family: 'Lilita One', sans-serif;
+}
+
+body {
     font-size: 0;
     margin: 0;
     height: 100vh;
     overflow: auto;
     font: 24px Arial, Helvética, sans-serif;
     text-align: center;
-
-
   }
   
-
   
   .columns {
     display: inline-block;
@@ -27,7 +62,7 @@ body {
     page-break-inside: avoid;
     break-inside: avoid;
     margin: 0 0 20px;
-    background-color: #fff; 
+    background-color: #ffffff; 
     border-radius: 5px;
     overflow: hidden;
   }
